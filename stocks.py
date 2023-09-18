@@ -46,3 +46,7 @@ def stock_purchases():
             print(f"{client_name} has ${investment_budget} to invest and can buy {int(max_shares)} shares of {stock_name} at the current price of ${current_price}.")
     else:
         print(f"Sorry, {stock_name} is not a valid stock name.")
+
+# Call the stock_purchases function to execute it
+stock_purchases()
+
