@@ -48,5 +48,5 @@ def stock_purchases():
         print(f"Sorry, {stock_name} is not a valid stock name.")
 
 # Call the stock_purchases function to execute it
-stock_purchases()
+# stock_purchases()
 
